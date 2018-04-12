@@ -1,0 +1,807 @@
+fileFormatVersion: 2
+guid: 5298285da07479e49b7e1226795dc810
+timeCreated: 1521364609
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy_Sprite_0
+    21300002: Enemy_Sprite_1
+    21300004: Enemy_Sprite_2
+    21300006: Enemy_Sprite_3
+    21300008: Enemy_Sprite_4
+    21300010: Enemy_Sprite_5
+    21300012: Enemy_Sprite_6
+    21300014: Enemy_Sprite_7
+    21300016: Enemy_Sprite_8
+    21300018: Enemy_Sprite_9
+    21300020: Enemy_Sprite_10
+    21300022: Enemy_Sprite_11
+    21300024: Enemy_Sprite_12
+    21300026: Enemy_Sprite_13
+    21300028: Enemy_Sprite_14
+    21300030: Enemy_Sprite_15
+    21300032: Enemy_Sprite_16
+    21300034: Enemy_Sprite_17
+    21300036: Enemy_Sprite_18
+    21300038: Enemy_Sprite_19
+    21300040: Enemy_Sprite_20
+    21300042: Enemy_Sprite_21
+    21300044: Enemy_Sprite_22
+    21300046: Enemy_Sprite_23
+    21300048: Enemy_Sprite_24
+    21300050: Enemy_Sprite_25
+    21300052: Enemy_Sprite_26
+    21300054: Enemy_Sprite_27
+    21300056: Enemy_Sprite_28
+    21300058: Enemy_Sprite_29
+    21300060: Enemy_Sprite_30
+    21300062: Enemy_Sprite_31
+    21300064: Enemy_Sprite_32
+    21300066: Enemy_Sprite_33
+    21300068: Enemy_Sprite_34
+    21300070: Enemy_Sprite_35
+    21300072: Enemy_Sprite_36
+    21300074: Enemy_Sprite_37
+    21300076: Enemy_Sprite_38
+    21300078: Enemy_Sprite_39
+    21300080: Enemy_Sprite_40
+    21300082: Enemy_Sprite_41
+    21300084: Enemy_Sprite_42
+    21300086: Enemy_Sprite_43
+    21300088: Enemy_Sprite_44
+    21300090: Enemy_Sprite_45
+    21300092: Enemy_Sprite_46
+    21300094: Enemy_Sprite_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 3848
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 4292
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 4588
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 4736
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 5032
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 5328
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 5476
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 5624
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 5772
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 6068
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 6364
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 6512
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 6808
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 6956
+        y: 0
+        width: 146
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

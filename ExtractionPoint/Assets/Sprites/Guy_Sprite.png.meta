@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: efc3c2ad07aa95f4aaec24884425f733
+timeCreated: 1521118717
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Guy_Sprite_0
+    21300002: Guy_Sprite_1
+    21300004: Guy_Sprite_2
+    21300006: Guy_Sprite_3
+    21300008: Guy_Sprite_4
+    21300010: Guy_Sprite_5
+    21300012: Guy_Sprite_6
+    21300014: Guy_Sprite_7
+    21300016: Guy_Sprite_8
+    21300018: Guy_Sprite_9
+    21300020: Guy_Sprite_10
+    21300022: Guy_Sprite_11
+    21300024: Guy_Sprite_12
+    21300026: Guy_Sprite_13
+    21300028: Guy_Sprite_14
+    21300030: Guy_Sprite_15
+    21300032: Guy_Sprite_16
+    21300034: Guy_Sprite_17
+    21300036: Guy_Sprite_18
+    21300038: Guy_Sprite_19
+    21300040: Guy_Sprite_20
+    21300042: Guy_Sprite_21
+    21300044: Guy_Sprite_22
+    21300046: Guy_Sprite_23
+    21300048: Guy_Sprite_24
+    21300050: Guy_Sprite_25
+    21300052: Guy_Sprite_26
+    21300054: Guy_Sprite_27
+    21300056: Guy_Sprite_28
+    21300058: Guy_Sprite_29
+    21300060: Guy_Sprite_30
+    21300062: Guy_Sprite_31
+    21300064: Guy_Sprite_32
+    21300066: Guy_Sprite_33
+    21300068: Guy_Sprite_34
+    21300070: Guy_Sprite_35
+    21300072: Guy_Sprite_36
+    21300074: Guy_Sprite_37
+    21300076: Guy_Sprite_38
+    21300078: Guy_Sprite_39
+    21300080: Guy_Sprite_40
+    21300082: Guy_Sprite_41
+    21300084: Guy_Sprite_42
+    21300086: Guy_Sprite_43
+    21300088: Guy_Sprite_44
+    21300090: Guy_Sprite_45
+    21300092: Guy_Sprite_46
+    21300094: Guy_Sprite_47
+    21300096: Guy_Sprite_48
+    21300098: Guy_Sprite_49
+    21300100: Guy_Sprite_50
+    21300102: Guy_Sprite_51
+    21300104: Guy_Sprite_52
+    21300106: Guy_Sprite_53
+    21300108: Guy_Sprite_54
+    21300110: Guy_Sprite_55
+    21300112: Guy_Sprite_56
+    21300114: Guy_Sprite_57
+    21300116: Guy_Sprite_58
+    21300118: Guy_Sprite_59
+    21300120: Guy_Sprite_60
+    21300122: Guy_Sprite_61
+    21300124: Guy_Sprite_62
+    21300126: Guy_Sprite_63
+    21300128: Guy_Sprite_64
+    21300130: Guy_Sprite_65
+    21300132: Guy_Sprite_66
+    21300134: Guy_Sprite_67
+    21300136: Guy_Sprite_68
+    21300138: Guy_Sprite_69
+    21300140: Guy_Sprite_70
+    21300142: Guy_Sprite_71
+    21300144: Guy_Sprite_72
+    21300146: Guy_Sprite_73
+    21300148: Guy_Sprite_74
+    21300150: Guy_Sprite_75
+    21300152: Guy_Sprite_76
+    21300154: Guy_Sprite_77
+    21300156: Guy_Sprite_78
+    21300158: Guy_Sprite_79
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guy_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 4964
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 5110
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 5256
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 5402
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 5548
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 5694
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 5986
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 6132
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 6278
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 6424
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 6570
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 6716
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 7154
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 7300
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 7446
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 7592
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 7738
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 7884
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 8030
+        y: 245
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guy_Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 3
+        width: 144
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
