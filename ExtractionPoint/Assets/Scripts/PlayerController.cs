@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour {
     Hero hero;
     private Animator anim;
     private static PlayerController instance = null;
+    public Rigidbody2D player;
     #endregion
 
     #region Get+Set
@@ -133,6 +134,7 @@ public class PlayerController : MonoBehaviour {
         {
             Direction = 1;
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
+            player.AddForce(Vector2.right * speed);
             anim.SetBool("HorizMove", true);
             
         }

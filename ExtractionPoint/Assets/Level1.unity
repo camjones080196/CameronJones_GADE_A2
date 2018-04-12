@@ -154,7 +154,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.46813583, y: -0.476745}
+  m_Offset: {x: -0.46813583, y: -0.7948209}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -165,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.015815735, y: 0.04650998}
+  m_Size: {x: 0.015815735, y: 0.68266153}
   m_EdgeRadius: 0
 --- !u!1 &35532249
 GameObject:
@@ -696,6 +696,7 @@ MonoBehaviour:
   attackTrigger1: {fileID: 107327695}
   attackTrigger2: {fileID: 516694081}
   attackTrigger3: {fileID: 808721020}
+  player: {fileID: 815383012}
 --- !u!212 &815383010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -774,16 +775,16 @@ Rigidbody2D:
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 1
-  m_Mass: 0.12000003
+  m_UseAutoMass: 0
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &815383013
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -91440,6 +91441,7 @@ GameObject:
   - component: {fileID: 1434008008}
   - component: {fileID: 1434008010}
   - component: {fileID: 1434008007}
+  - component: {fileID: 1434008011}
   m_Layer: 0
   m_Name: WaterTiles
   m_TagString: Water
@@ -113987,6 +113989,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb3be9d50fb20da458f5a02868bc7c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1434008011
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1434008005}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1515965570
 GameObject:
   m_ObjectHideFlags: 0

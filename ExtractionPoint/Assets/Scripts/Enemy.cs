@@ -19,7 +19,8 @@ public class Enemy : MonoBehaviour {
     public Transform boundary;
     Vector3 newPos;
     Hero hero = new Hero();
-    private float speed = 1.5f;
+    private float maxSpeed = 1.5f;
+    private float speed;
     public float attackWait;
     public float step;
     public float dist;
@@ -30,6 +31,8 @@ public class Enemy : MonoBehaviour {
     private Animator anim;
 
     public Image healthBar;
+
+    public Rigidbody2D enemy;
     #endregion Variables
 
     #region Get+Set
@@ -136,6 +139,7 @@ public class Enemy : MonoBehaviour {
     #region Methods
     void Start ()
     {
+        speed = maxSpeed;
         Hp = Maxhp;
         player = GameObject.FindGameObjectWithTag("Hero").transform;            //Finds the hero game object
         hero = GameObject.FindGameObjectWithTag("Hero").GetComponent<Hero>();
@@ -152,9 +156,12 @@ public class Enemy : MonoBehaviour {
     {
         if (col.gameObject.tag == "Hero")                           //Detects if the player is colliding with the enemy
         {
+            enemy.isKinematic = false;
+            speed = 0;
             attacking = true;
             hero = col.gameObject.GetComponent<Hero>();
-            StartCoroutine(attackHero(hero));                       //Starts the coroutine to attack the hero
+            StartCoroutine(attackHero());                       //Starts the coroutine to attack the hero
+            anim.SetBool("Attacking", true);
         }
     }
 
@@ -162,8 +169,11 @@ public class Enemy : MonoBehaviour {
     {
         if(col.gameObject.tag == "Hero")                            //Detects if the player moves away from the enemy
         {
+            enemy.isKinematic = true;
+            speed = maxSpeed;
             attacking = false;
-            StopCoroutine(attackHero(hero));                        //Stops the coroutine to attack the hero
+            StopCoroutine(attackHero());                        //Stops the coroutine to attack the hero
+            anim.SetBool("Attacking", false);
         } 
     }
 
@@ -221,7 +231,7 @@ public class Enemy : MonoBehaviour {
         
     }
 
-    public IEnumerator attackHero(Hero hero)
+    public IEnumerator attackHero()
     {
         yield return new WaitForSeconds(attackWait);
         
