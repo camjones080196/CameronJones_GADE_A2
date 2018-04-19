@@ -22,12 +22,12 @@ public class Water : MonoBehaviour {
         if(col.gameObject.tag == "WaterTrigger")
         {
             hero = col.gameObject.GetComponentInParent<PlayerController>();
-            hero.Speed -= 1;
+            hero.Speed -= 2;
         }
         if (col.gameObject.tag == "Enemy")
         {
             enemy = col.gameObject.GetComponent<Enemy>();
-            enemy.Speed -= 1;
+            enemy.Speed -= 2;
         }
     }
     private void OnTriggerExit2D(Collider2D col)
@@ -35,12 +35,12 @@ public class Water : MonoBehaviour {
         if (col.gameObject.tag == "WaterTrigger")
         {
             hero = col.gameObject.GetComponentInParent<PlayerController>();
-            hero.Speed += 1;
+            hero.Speed += 2;
         }
         if (col.gameObject.tag == "Enemy")
         {
             enemy = col.gameObject.GetComponent<Enemy>();
-            enemy.Speed = 1;
+            enemy.Speed = 2;
         }
     }
 }

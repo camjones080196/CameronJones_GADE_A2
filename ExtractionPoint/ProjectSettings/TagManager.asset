@@ -13,6 +13,9 @@ TagManager:
   - HealthPack
   - Water
   - WaterTrigger
+  - Bullet
+  - Ground
+  - Tree
   layers:
   - Default
   - TransparentFX

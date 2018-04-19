@@ -9,17 +9,22 @@ public class Spawn : MonoBehaviour {
     float spawnPointY;
     public Transform boundary;
 
+    //Environment Spawning
+    public GameObject Tree;
+
+    public int numberOfTrees;
+
+    Vector3 treeSpawnPosition;
+
     //Enemy Spawning
     public GameObject Enemy;
 
     Vector3 enemySpawnPosition;
 
     public float spawnWait;
-    public float spawnLeastWait;
-    public float spawnMostWait;
-
     public int startWait;
-    public int numberOfEnemies = 10;
+    public int startingEnemies;
+    public int spawnEnemies; 
 
     //Drop Spawning
     public GameObject Drop;
@@ -39,7 +44,6 @@ public class Spawn : MonoBehaviour {
     #region Methods
     void Start ()
     {
-       
         StartCoroutine(SpawnEnemy());
         StartCoroutine(spawnDrop());
         Drop = HandGun;
@@ -48,21 +52,42 @@ public class Spawn : MonoBehaviour {
 	
 	void Update ()
     {
-        spawnWait = Random.Range(spawnLeastWait, spawnMostWait);
+        
+    }
+
+    void spawnEnvironment()
+    {
+        for(int i = 0; i < numberOfTrees; i++)
+        {
+            spawnPointX = Random.Range(-125, 125);
+            spawnPointY = Random.Range(-125, 125);
+            treeSpawnPosition = new Vector3(spawnPointX, spawnPointY, -3);
+
+            Instantiate(Tree, treeSpawnPosition, gameObject.transform.rotation);
+        }
     }
 
     IEnumerator SpawnEnemy()
     {
-        yield return new WaitForSeconds(startWait);
-
-        for(int i = 0; i < numberOfEnemies; i++)
+        for(int i = 0; i < startingEnemies; i++)
         {
             spawnPointX = Random.Range(-125, 125);
             spawnPointY = Random.Range(-125, 125);
-            enemySpawnPosition = new Vector3(spawnPointX, spawnPointY, -1);
+            enemySpawnPosition = new Vector3(spawnPointX, spawnPointY, -2);
 
             Instantiate(Enemy, enemySpawnPosition, gameObject.transform.rotation);
+        }
 
+        yield return new WaitForSeconds(startWait);
+
+        for (int i = 0; i < startingEnemies; i++)
+        {
+            boundary = GameObject.FindGameObjectWithTag("Boundary").transform;
+            spawnPointX = Random.Range(boundary.position.x + boundary.localScale.x, boundary.position.x - boundary.localScale.x);
+            spawnPointY = Random.Range(boundary.position.y + boundary.localScale.y, boundary.position.y - boundary.localScale.y);
+            enemySpawnPosition = new Vector3(spawnPointX, spawnPointY, -2);
+
+            Instantiate(Enemy, enemySpawnPosition, gameObject.transform.rotation);
             yield return new WaitForSeconds(spawnWait);
         }
     }

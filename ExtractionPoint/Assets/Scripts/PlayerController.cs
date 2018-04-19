@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
     private bool forward = true;
     private bool attacking = false;
     private float attackTimer = 0;
-    private float attackCoolDown = 0.5f;
+    private float attackCoolDown = 0.3f;
 
     [SerializeField] private GameObject thrown;
     [SerializeField] private Transform throwPos;
@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour {
     Hero hero;
     private Animator anim;
     private static PlayerController instance = null;
-    public Rigidbody2D player;
     #endregion
 
     #region Get+Set
@@ -114,9 +113,10 @@ public class PlayerController : MonoBehaviour {
 	
 	void Update ()
     {
+        checkBoundary();
         ResetValues();
         HandleInput();
-        HandleAttacks();
+        HandleAttacks();  
 	}
 
     void ResetValues()
@@ -127,6 +127,7 @@ public class PlayerController : MonoBehaviour {
         anim.SetInteger("Attack", 0);
     }
 
+
     void HandleInput()
     {
         FlipPlayer();
@@ -134,7 +135,6 @@ public class PlayerController : MonoBehaviour {
         {
             Direction = 1;
             transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
-            player.AddForce(Vector2.right * speed);
             anim.SetBool("HorizMove", true);
             
         }
@@ -298,6 +298,29 @@ public class PlayerController : MonoBehaviour {
                     }
                 }
                 break;
+        }
+    }
+
+    void checkBoundary()
+    {
+        // X axis
+        if (transform.position.x <= -127)
+        {
+            transform.position = new Vector2(-127, transform.position.y);
+        }
+        else if (transform.position.x >= 127)
+        {
+            transform.position = new Vector2(127, transform.position.y);
+        }
+
+        // Y axis
+        if (transform.position.y <= -126)
+        {
+            transform.position = new Vector2(transform.position.x, -126);
+        }
+        else if (transform.position.y >= 126)
+        {
+            transform.position = new Vector2(transform.position.x, 126);
         }
     }
 

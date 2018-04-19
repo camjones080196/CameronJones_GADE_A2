@@ -182,7 +182,7 @@ public class Hero : MonoBehaviour {
     {
         if(HealthPacks > 0)
         {
-            Hp += 50;
+            Hp += 25;
             HealthPacks -= 1;
         }
     }

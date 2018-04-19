@@ -14,13 +14,17 @@ public class Bullet : MonoBehaviour {
     Hero hero;
     #endregion
 
-    void Start () {
+    void Start ()
+    {
         hero = GameObject.FindGameObjectWithTag("Hero").GetComponent<Hero>();
         bullet = GetComponent<Rigidbody2D>();
         direction = SetDir(GameObject.Find("Player").GetComponent<PlayerController>().Forward, GameObject.Find("Player").GetComponent<PlayerController>().Direction);
-	}
+        StartCoroutine(destroyBullet());
+
+    }
 	
-	void Update () {
+	void Update ()
+    {
         bullet.velocity = direction * speed * Time.deltaTime;
 	}
 
@@ -49,8 +53,9 @@ public class Bullet : MonoBehaviour {
             return Vector2.right;
     }
 
-    private void OnBecameInvisible()
+    private IEnumerator destroyBullet()
     {
+        yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
     }
 }

@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour {
     Hero hero = new Hero();
     private float maxSpeed = 1.5f;
     private float speed;
+    public float startAttackWait;
     public float attackWait;
     public float step;
     public float dist;
@@ -31,8 +32,6 @@ public class Enemy : MonoBehaviour {
     private Animator anim;
 
     public Image healthBar;
-
-    public Rigidbody2D enemy;
     #endregion Variables
 
     #region Get+Set
@@ -149,19 +148,25 @@ public class Enemy : MonoBehaviour {
 	void Update ()
     {
         step = Speed * Time.deltaTime;                                          //Sets how fast the enemy can travel
-        moveToPlayer();                                                     
+        moveToPlayer();
+        ResetValues();
+    }
+
+    void ResetValues()
+    {
+        
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Hero")                           //Detects if the player is colliding with the enemy
         {
-            enemy.isKinematic = false;
+            anim.SetBool("Move", false);
+            anim.SetBool("Attack", false);
             speed = 0;
             attacking = true;
             hero = col.gameObject.GetComponent<Hero>();
-            StartCoroutine(attackHero());                       //Starts the coroutine to attack the hero
-            anim.SetBool("Attacking", true);
+            StartCoroutine(attackHero(hero));                       //Starts the coroutine to attack the hero
         }
     }
 
@@ -169,11 +174,10 @@ public class Enemy : MonoBehaviour {
     {
         if(col.gameObject.tag == "Hero")                            //Detects if the player moves away from the enemy
         {
-            enemy.isKinematic = true;
+            anim.SetBool("Attack", false);
             speed = maxSpeed;
             attacking = false;
-            StopCoroutine(attackHero());                        //Stops the coroutine to attack the hero
-            anim.SetBool("Attacking", false);
+            StopCoroutine(attackHero(hero));                        //Stops the coroutine to attack the hero
         } 
     }
 
@@ -188,11 +192,12 @@ public class Enemy : MonoBehaviour {
                 movingToPlayer = true;
                 transform.position = Vector2.MoveTowards(transform.position, player.position, step);  //Moves the enemy towards the player
                 movingToBoundary = false;
-                enemyAnim();                                                                          //Calls a method to change the animation state of the enemy
+                anim.SetBool("Move", true);                                                                         //Calls a method to change the animation state of the enemy
             }
             else
             {
                 movingToPlayer = false;
+                anim.SetBool("Move", false);
             }
         }
     }
@@ -212,6 +217,7 @@ public class Enemy : MonoBehaviour {
                     newX = Random.Range(boundary.position.x + boundary.localScale.x, boundary.position.x - boundary.localScale.x);
                     newY = Random.Range(boundary.position.y + boundary.localScale.y, boundary.position.y - boundary.localScale.y);
                     NewPos = new Vector3(newX, newY, 1);
+                    anim.SetBool("Move", true);
                     transform.position = Vector2.MoveTowards(transform.position, NewPos, step);
 
                     yield return null;
@@ -231,19 +237,20 @@ public class Enemy : MonoBehaviour {
         
     }
 
-    public IEnumerator attackHero()
+    public IEnumerator attackHero(Hero hero)
     {
-        yield return new WaitForSeconds(attackWait);
+        yield return new WaitForSeconds(startAttackWait);
         
         while (attacking)
         {
+            anim.SetBool("Attack", true);
             hero.Damage(attackDamage);
             yield return new WaitForSeconds(attackWait);
         }
 
     }
 
-    public void enemyAnim()
+   /* public void enemyAnim()
     {
         if (player.position.y > transform.position.y)
         {
@@ -274,8 +281,9 @@ public class Enemy : MonoBehaviour {
             anim.SetBool("HorizMove", false);
         }
     }
+    */
 
-    void FlipPlayer()
+    void FlipEnemy()
     {
         float movement = Input.GetAxis("Horizontal");
 

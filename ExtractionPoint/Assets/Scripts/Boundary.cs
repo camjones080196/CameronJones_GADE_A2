@@ -94,7 +94,7 @@ public class Boundary : MonoBehaviour {
             xpos = Random.Range(Range, -Range);                                         //Determines the boundaries x position
             ypos = Random.Range(Range, -Range);                                         //Determines the boundaries y position
             transform.localScale += new Vector3(-scale, -scale, 1);
-            transform.position = new Vector3(xpos, ypos, -1);
+            transform.position = new Vector3(xpos, ypos, -3);
 
             yield return new WaitForSeconds(shrinkWait);
 
